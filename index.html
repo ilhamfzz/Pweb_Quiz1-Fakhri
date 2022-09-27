@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registaration Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" lang="javascript" src="style.css"></script>
+    </head>
+       
+    <body>
+        <main>
+        <h1>Formulir Registrasi</h1>
+        <div class="container">
+            <h2>Peserta</h2>
+            <div class="row">
+                <div class="col-10">
+                    <label for="nama">Nama Lengkap & Gelar:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="asal">Asal Insttansi / Kota:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="asal" name="asal" placeholder="Masukkan asal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="alamat">Alamat:</label>
+                </div>
+                <div class="col-90">
+                    <input type="addres" id="alamat" name="alamat" placeholder="Masukkan alamat">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="kodepos">Kode Pos:</label>
+                </div>
+                <div class="col-90">
+                    <input type="number" id="kpos" name="kodepos" placeholder="Masukkan kode pos" maxlength="6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="provinsi">Provinsi:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="prov" name="provinsi" placeholder="Masukkan provinsi">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="contact">Telepon / Handphone:</label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="tel" name="contact" placeholder="Masukkan contact aktif">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-90">
+                    <input type="email" name="email" id="address" placeholder="Masukkan email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="sponsor">Sponsor:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="sponsor" name="sponsor" placeholder="Masukkan sponsor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="nperusahaan">- Nama Perusahaan:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="nperusahaan" name="nperusahaan" placeholder="Masukkan nama perusahaan">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="aperusahaan">- Alamat Perusahaan:</label>
+                </div>
+                <div class="col-90">
+                    <input type="addres" id="aperusahaan" name="aperusahaan" placeholder="Masukkan alamat perusahaan">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="nkperusahaan">- Nama Kontak Personal:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="nkperusahaan" name="nkperusahaan" placeholder="Masukkan nama kontak personal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="cperusahaan">- Telp. Personal:</label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="cperusahaan" name="cperusahaan" placeholder="Masukkan nomor telepon personal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="eperusahaan">- Email Perusahaan:</label>
+                </div>
+                <div class="col-90">
+                    <input type="email" id="eperusahaan" name="eperusahaan" placeholder="Masukkan email perusahaan">
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Register" onclick="submit_register()">
+            </div> 
+            
+            <script type="text/javascript">
+                function submit_register(){
+                    alert("Register Successful");
+                }
+            </script>
+        </div>
+        </main>
+    </body>
+</html>
